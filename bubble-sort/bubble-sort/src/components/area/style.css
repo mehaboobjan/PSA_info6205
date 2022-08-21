@@ -1,0 +1,93 @@
+.areabody{
+    margin:0;
+    padding:0;
+    height: 90vh;
+    width: 100vw;
+    display:flex;
+    justify-content:center;
+    font-family: "Roboto", sans-serif;
+    background: rgb(198, 170, 255);
+}
+.bars{
+    background: rgb(119, 129, 185);
+    margin:0;
+    padding:2px;
+    display: inline-block;
+    width: 70vw;
+    height: 50vh;
+    box-shadow: 0 0 10px 0 rgb(185, 119, 119);
+    border-radius: 5px;
+}
+.bars li{
+    display: table-cell;
+    width: 200px;
+    height: 50vh;
+    position: relative;
+    align-items:center;
+    margin:auto;
+}
+.bars .bar{
+    display: block;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.5);
+    position:absolute;
+    bottom: 0;
+    text-align:center;
+}
+.sortedBar{
+    background: rgb(124, 124, 124) !important;
+    box-shadow: 0 0 10px 0 rgb(124, 124, 124, 0.5) !important;
+}
+.selectedBar{
+    background: rgb(250, 46, 46) !important;
+    box-shadow: 0 0 10px 0 rgb(250, 46, 46, 0.5) !important;
+}
+.blueBar{
+    background: rgb(51, 153, 248) !important;
+    box-shadow: 0 0 10px 0 rgb(51, 153, 248, 0.5) !important;
+}
+.workingBar{
+    background: rgb(255, 0, 221) !important;
+    box-shadow: 0 0 10px 0 rgb(255, 0, 221, 0.5) !important;
+}
+.sortingHereBar{
+    background: rgb(243, 186, 186) !important;
+    box-shadow: 0 0 10px 0 rgb(243, 186, 186, 0.5) !important;
+}
+.startButtonDiv{
+    text-align:center;
+}
+a.startButton{
+    display:inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid rgb(226, 226, 226);
+    margin: 20px 0 20px 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+a.startButton:hover{
+    color:rgb(255, 170, 170);
+    background-color: rgb(255, 255, 255);
+}
+.disabledStartButton{
+    display:inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid rgb(68, 68, 68);
+    margin: 20px 0 20px 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+    text-align: center;
+    transition: all 0.2s;
+    cursor:not-allowed !important;
+}
